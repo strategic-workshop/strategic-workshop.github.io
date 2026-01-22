@@ -146,5 +146,100 @@ footer {
   .about-container {
     flex-direction: column;
   }
+  .partners-logos .logos {
+    gap: 2rem;
+  }
+  .hero-container {
+    flex-direction: column;
+  }
+  .hero-logo {
+    margin-top: 1.5rem;
+  }
 }
 
+.page-title {
+  text-align: center;
+  margin-bottom: 2rem; /* optional spacing below */
+}
+
+/* Hero container: two columns (text + logo) */
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 2rem auto;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+/* Text column */
+.hero-text {
+  flex: 2 1 500px;
+  padding-left: 2rem; /* add padding here */
+}
+
+/* Logo column */
+.hero-logo {
+  flex: 1 1 250px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero-logo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 2rem; 
+}
+
+/* Registration info: full-width below hero-container */
+.registration-info {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #fef5f5; /* light red/pink */
+  border-left: 5px solid #ff3333;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.registration-info .important {
+  color: #ff3333;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+/* List styling inside registration */
+.registration-info ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.registration-info li {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* CTA button for registration PDF */
+.btn-registration {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #ff3333;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+/* Note text */
+.registration-info .note {
+  font-size: 0.95rem;
+  color: #333;
+  margin-top: 1rem;
+}
