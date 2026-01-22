@@ -12,6 +12,18 @@ body {
   color: white;
 }
 
+.nav-list li a {
+  border-bottom: 2px solid transparent;  /* underline on hover */
+}
+
+.nav-list li.active a {
+  border-bottom-color: #ffffff; /* same underline */
+}
+
+.site-nav a:hover {
+  border-bottom-color: #ffffff; /* same underline */
+}
+
 .site-header .logo {
   height: 60px;
   position: absolute;
@@ -73,10 +85,6 @@ footer {
   color: white;
   text-decoration: none;
   font-weight: bold;
-}
-
-.site-nav a:hover {
-  text-decoration: underline;
 }
 
 /* Full-width About page heading */
@@ -267,3 +275,60 @@ footer {
   float: right;
   margin: 2rem 0 1rem 1.5rem;
 }
+
+.btn-container {
+  text-align: center;
+}
+
+/* PDF download button */
+.btn-download {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #003366;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* Programme intro */
+.programme-intro {
+  max-width: 900px;
+  margin: 1rem auto 2rem auto;
+  line-height: 1.6;
+}
+
+/* Session blocks */
+.session {
+  background-color: #f9f9f9;
+  border-left: 4px solid #003366;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.session-time {
+  color: #ff3333;
+  font-weight: bold;
+}
+
+.session-title {
+  font-weight: bold;
+  margin: 0.25rem 0;
+}
+
+.session-chair,
+.session-moderator {
+  font-style: italic;
+  margin: 0.25rem 0;
+}
+
+.session-speaker {
+  margin: 0;
+}
+
+h3 {
+  margin-top: 2.5rem;
+  color: #003366;
+}
+

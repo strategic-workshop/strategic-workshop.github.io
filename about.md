@@ -4,7 +4,7 @@ layout: default
 ---
 
 <!-- Full-width heading above columns -->
-<h2 class="about-page-title">About the Strategic Workshop</h2>
+<h2 class="page-title">About the Strategic Workshop</h2>
 
 <!-- Two-column container: timeline left, text right -->
 <div class="about-container">
