@@ -12,6 +12,53 @@ body {
   color: white;
 }
 
+.travel-section {
+  margin: 2rem 0;
+}
+
+.travel-section h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #003366; /* consistent heading color */
+}
+
+.travel-section p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.venue-columns {
+  display: flex;
+  flex-wrap: wrap; /* ensures responsiveness on mobile */
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.venue-text {
+  flex: 1 1 300px;  /* grows, shrinks, minimum 300px */
+}
+
+.venue-map iframe {
+  border: 1px solid #ccc;       /* thin gray border */
+  border-radius: 6px;           /* slightly rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+.venue-map {
+  flex: 1 1 300px;
+  min-width: 300px;
+  padding: 0.5rem;
+}
+
+/* Highlight visa section */
+.travel-section.visa {
+  background-color: rgba(255, 0, 0, 0.05); /* subtle red highlight */
+  padding: 1rem;
+  border-left: 4px solid #ff0000; /* optional left marker */
+  border-radius: 4px;
+}
+
+
 .nav-list li a {
   border-bottom: 2px solid transparent;  /* underline on hover */
 }
@@ -330,5 +377,19 @@ footer {
 h3 {
   margin-top: 2.5rem;
   color: #003366;
+}
+
+.contact-list p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.contact-list a {
+  color: #003366; /* or keep white if nav/page style uses white links */
+  text-decoration: underline;
+}
+
+.page-title {
+  margin-bottom: 1rem;
 }
 

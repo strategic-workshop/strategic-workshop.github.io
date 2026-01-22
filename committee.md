@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Committee
+title: 29th Strategic Workshop - Committee
 ---
 
 <h2 class="page-title">Organising Committee</h2>

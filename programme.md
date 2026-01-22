@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Programme
+title: 29th Strategic Workshop - Programme
 ---
 
 <h2 class="page-title">Programme</h2>

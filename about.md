@@ -1,5 +1,5 @@
 ---
-title: About
+title: 29th Strategic Workshop - About
 layout: default
 ---
 

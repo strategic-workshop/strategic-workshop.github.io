@@ -1,5 +1,5 @@
 ---
-title: 29th Strategic Workshop (May 18-20, 2026 in Rome, Italy)
+title: 29th Strategic Workshop
 layout: default
 ---
 
