@@ -1,2 +1,4 @@
 # strategic-workshop.github.io
-Strategic Workshop
+Strategic Workshop 2026
+
+Rome, Italy 18-20
