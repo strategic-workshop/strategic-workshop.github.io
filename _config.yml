@@ -1,0 +1,61 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that h you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# -------------------------------------
+# Site settings
+# -------------------------------------
+title: 29th Strategic Workshop (May 18-20, 2026 in Rome, Italy)
+description: "29th Strategic Workshop (May 18-20, 2026 in Rome, Italy)"
+email: ana.koren@riverpublishers.com
+author: Ana Koren, River Publishers
+url: "https://strategic-workshop.github.io" # your GitHub Pages URL
+baseurl: "" # leave empty for user/organization pages
+theme: minima # simple, clean default Jekyll theme (optional)
+lang: en
+
+# -------------------------------------
+# Build settings
+# -------------------------------------
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# -------------------------------------
+# GitHub Pages settings
+# -------------------------------------
+# Required if you’re using GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# -------------------------------------
+# Defaults for pages
+# -------------------------------------
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+      title: "29th Strategic Workshop (May 18-20, 2026 in Rome, Italy)"
+

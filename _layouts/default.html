@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-text">
+      <h1>{{ site.title }}</h1>
+    </div>
+    <img src="{{ '/assets/header.jpg' | relative_url }}" alt="Header Image" class="header-img">
+  </header>
+<nav class="site-nav">
+  <ul>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    <li><a href="{{ '/about' | relative_url }}">About</a></li>
+    <li><a href="{{ '/committee' | relative_url }}">Committee</a></li>
+    <li><a href="{{ '/program' | relative_url }}">Program</a></li>
+    <li><a href="{{ '/travel' | relative_url }}">Travel</a></li>
+    <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+  </ul>
+</nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <section class="partners-logos">
+  <div class="container">
+    <h3>Partners & Organizers</h3>
+    <div class="logos">
+      <img src="{{ '/assets/logo-partner.png' | relative_url }}" alt="Partner Logo">
+      <img src="{{ '/assets/logo-organizer.png' | relative_url }}" alt="Organizer Logo">
+    </div>
+  </div>
+  </section>
+
+  <footer>
+      © {{ "now" | date: "%Y" }} {{ site.author }}
+  </footer>
+</body>
+</html>
+

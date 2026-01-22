@@ -1,0 +1,150 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #333;
+}
+
+.site-header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.site-header .logo {
+  height: 60px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.site-header .header-text {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.site-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+.site-header .header-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.site-nav {
+  background: #003366; /* dark blue */
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.site-nav li {
+  margin: 0 1rem;
+}
+
+.site-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Full-width About page heading */
+.about-page-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0;  /* spacing above and below the heading */
+}
+
+/* About page container: two columns */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;       /* stack on small screens */
+  max-width: 1000px;
+  margin: 0 auto;        /* center container */
+  gap: 2rem;             /* spacing between columns */
+  align-items: flex-start; /* top-align columns */
+  padding: 0 1rem;
+}
+
+/* Timeline image column */
+.about-timeline {
+  flex: 1 1 200px;       /* left column width */
+}
+
+.about-timeline img {
+  width: 100%;
+  height: auto;
+  border-left: none;     /* no vertical line */
+  padding-left: 0;
+}
+
+/* Text column */
+.about-text {
+  flex: 2 1 400px;       /* right column width */
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.partners-logos {
+  background-color: #f5f5f5;  /* light gray background */
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.partners-logos h3 {
+  color: #003366;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.partners-logos .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;  /* space between logos */
+  flex-wrap: wrap;
+}
+
+.partners-logos .logos img {
+  max-height: 80px;  /* adjust size */
+  width: auto;
+}
+
+/* Responsive: stack columns on small screens */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
+

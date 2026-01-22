@@ -1,0 +1,53 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #333;
+}
+
+.site-header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.site-header .logo {
+  height: 60px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.site-header .header-text {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.site-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+.site-header .header-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
