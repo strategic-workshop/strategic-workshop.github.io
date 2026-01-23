@@ -42,8 +42,8 @@ Under his leadership, magnitudes of close collaborations are being established a
   <img src="{{ '/assets/images/committee3.jpg' | relative_url }}" alt="Giuliana Contaldi
 ">
   <p>
-    <strong>Giuliana Contaldi </strong><br>
-    Italy<br><br>Giuliana is based in Rome, Italy, and supports the organisation of the Strategic Workshop 2026.
+    <strong>Giuliana Contaldi</strong><br>
+    Laurentina Viaggi, Italy<br><br>Giuliana is a travel agent and tour operator based in Rome, Italy, and supports the organisation of the Strategic Workshop 2026.
   </p>
 </div>
 
