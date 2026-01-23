@@ -31,6 +31,7 @@ layout: default
   <ul>
     <li><strong>Registration deadline:</strong> February 1st, 2026</li>
     <li><strong>Registration fee:</strong> 1700 EUR</li>
+    <li>The two nights of accommodation, as well as meals during the workshop, are included in the registration fee.</li>
     <li>
       <strong>Contacts:</strong><br>
       Guliana Contaldi: <a href="mailto:info@laurentinaviaggi.com">info@laurentinaviaggi.com</a> (registration)<br>
